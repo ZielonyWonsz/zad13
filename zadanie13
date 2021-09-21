@@ -10,7 +10,7 @@
             suma1=Math.abs(A+B);
             suma2=Math.pow(suma1,3);
 		    document.write("Wynik= "+suma2+"<br>");
-            document.write("("+A+" + "+B+")<sup>3</sup> = "+A+"<sup>3</sup> + 3*"+A+"<sup>3</sup>"+B+" + 3*"+A+""+B+"<sup>2</sup> + "+B+"<sup>3</sup>" )
+            document.write("("+A+" + "+B+")<sup>3</sup> = "+A+"<sup>3</sup> + 3*"+A+"<sup>3</sup>"+B+" + 3*"+A+"*"+B+"<sup>2</sup> + "+B+"<sup>3</sup>" )
     </script>
     </div>
 </head>
