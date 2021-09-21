@@ -1,0 +1,19 @@
+<html> 
+  <head>
+    <div style="color:rgb(8, 192, 8);font-size:35px;">
+    <script language="JavaScript">
+		var Liczba1_STA=prompt("Dni 1=","");
+		var Liczba2_STA=prompt("Dni 2=","");
+		                    var suma;
+                            A=parseFloat(Liczba1_STA);
+                            B=parseFloat(Liczba2_STA);
+            suma1=Math.abs(A+B);
+            suma2=Math.pow(suma1,3);
+		    document.write("Wynik= "+suma2+"<br>");
+            document.write("("+A+" + "+B+")<sup>3</sup> = "+A+"<sup>3</sup> + 3*"+A+"<sup>3</sup>"+B+" + 3*"+A+""+B+"<sup>2</sup> + "+B+"<sup>3</sup>" )
+    </script>
+    </div>
+</head>
+<body>
+</body> 
+</html>
